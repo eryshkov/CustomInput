@@ -12,6 +12,8 @@
 		5C87F29021B2929200355BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F28E21B2929200355BCA /* Main.storyboard */; };
 		5C87F29221B2929600355BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F29121B2929600355BCA /* Assets.xcassets */; };
 		5C87F29521B2929600355BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F29321B2929600355BCA /* LaunchScreen.storyboard */; };
+		5C87F29D21B29ED700355BCA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F29C21B29ED700355BCA /* README.md */; };
+		5C87F2A021B29FED00355BCA /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F29F21B29FED00355BCA /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C87F29121B2929600355BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C87F29421B2929600355BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C87F29621B2929600355BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C87F29C21B29ED700355BCA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C87F29F21B29FED00355BCA /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		5C87F27E21B2929200355BCA = {
 			isa = PBXGroup;
 			children = (
+				5C87F29E21B29FDC00355BCA /* screens */,
+				5C87F29C21B29ED700355BCA /* README.md */,
 				5C87F28921B2929200355BCA /* CustomInput */,
 				5C87F28821B2929200355BCA /* Products */,
 			);
@@ -62,6 +68,14 @@
 				5C87F29621B2929600355BCA /* Info.plist */,
 			);
 			path = CustomInput;
+			sourceTree = "<group>";
+		};
+		5C87F29E21B29FDC00355BCA /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C87F29F21B29FED00355BCA /* 1.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C87F2A021B29FED00355BCA /* 1.jpeg in Resources */,
 				5C87F29521B2929600355BCA /* LaunchScreen.storyboard in Resources */,
 				5C87F29221B2929600355BCA /* Assets.xcassets in Resources */,
+				5C87F29D21B29ED700355BCA /* README.md in Resources */,
 				5C87F29021B2929200355BCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +298,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = CustomInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +307,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dum22ns90.com1004.CustomInput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +317,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = CustomInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dum22ns90.com1004.CustomInput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
