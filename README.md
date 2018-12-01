@@ -5,3 +5,4 @@
 ## Main functionality
 
 * replaces keyboard with customView for the textField
+* adds custom accessory view to display when the text field becomes the first responder
